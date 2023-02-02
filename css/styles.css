@@ -25,10 +25,12 @@ header {
 body {
   background-image: linear-gradient(to left, #10528b, #3E6D9C);
 }
-body img {
+
+img {
   max-width: 100%;
 }
-body h1 {
+
+h1 {
   text-align: center;
   font-size: 2.5rem;
   text-transform: uppercase;
@@ -37,6 +39,7 @@ body h1 {
   animation-name: aparecer;
   animation-iteration-count: infinite;
 }
+
 @keyframes aparecer {
   0% {
     opacity: 0;
@@ -45,7 +48,7 @@ body h1 {
     opacity: 1;
   }
 }
-body .p__titulo {
+.p__titulo {
   text-align: center;
   font-size: 1.5rem;
   text-transform: uppercase;
@@ -55,6 +58,7 @@ body .p__titulo {
   animation-name: aparecer;
   animation-iteration-count: infinite;
 }
+
 @keyframes aparecer {
   0% {
     opacity: 0;
@@ -63,44 +67,51 @@ body .p__titulo {
     opacity: 1;
   }
 }
-body p {
+p {
   text-align: center;
   font-size: 1.5rem;
   text-transform: uppercase;
   color: #a6bbce;
   margin-bottom: 3rem;
 }
-body .item__video {
+
+.item__video {
   margin-top: 2rem;
   text-align: center;
   font-size: 1.5em;
   margin-bottom: 3rem;
 }
-body .iframe {
+
+.iframe {
   width: 50%;
 }
-body .h2 {
+
+.h2 {
   color: #3d4b57;
   margin-bottom: 2rem;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
-body .p__video::first-letter {
+
+.p__video::first-letter {
   color: #3d4b57;
   font-size: 3.5rem;
   margin-bottom: 2rem;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-body .texto__bajo__contenedor::first-letter {
+
+.texto__bajo__contenedor::first-letter {
   color: #3d4b57;
   font-size: 3.5rem;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-body .img__pag1 img {
+
+.img__pag1 img {
   height: 350px;
   width: 400px;
   margin-bottom: 5rem;
 }
-body footer {
+
+footer {
   margin-top: 3rem;
   font-size: 1.6rem;
   background-color: black;
