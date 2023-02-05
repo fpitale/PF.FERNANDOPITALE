@@ -1,10 +1,10 @@
 /* paleta de colores */
-$color-primario: #3E6D9C;
-$color-secundario:white;
-$color-terciario:rgb(218, 103, 62);
-$color-cuartenaria:#3d4b57;
-$color-quinariass: #a6bbce;
-$color-footer:black;
+$color-primario: #1C315E;
+$color-secundario:#E6E2C3;
+$color-terciario:#F6F6C9;
+$color-cuartenaria:#227C70;
+$color-quinariass: #153462;
+$color-footer:#393E46;
 
 
 $backgroundPrincipal:linear-gradient(to left, white, #3E6D9C);
@@ -23,8 +23,14 @@ $espacioMedio:40px;
 $espacioGrande: 60px;
 
 
+
+
+
+
 /*Fuente*/
 $fuentePrincipal: 'Montserrat', sans-serif;
+
+
 
 /*MIXIN*/
 @mixin flex-columna {
@@ -38,3 +44,26 @@ $fuentePrincipal: 'Montserrat', sans-serif;
     align-items: center;
     justify-content: center;
 }
+
+@mixin h1 {
+    
+        text-align: center;
+        font-size: 2.5rem;
+        text-transform: uppercase;
+        color: rgb(218, 103, 62);
+        animation-duration: 3s;
+        animation-name: aparecer;
+        animation-iteration-count: infinite;
+      
+}
+
+@mixin p_titulo {
+    text-align: center;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+            color: coral;
+            margin-bottom: 3rem;
+            animation-duration: 3s;
+            animation-name: aparecer;
+            animation-iteration-count: infinite;}
+            

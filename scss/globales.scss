@@ -13,3 +13,9 @@ body { font-family: $fuentePrincipal;
         color: #0e263f;
       }
       
+      h1{ 
+        @include h1
+      }
+     
+
+      
