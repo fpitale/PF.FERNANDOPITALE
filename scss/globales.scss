@@ -1,0 +1,15 @@
+/*  estilos globales */
+
+
+
+
+body { font-family: $fuentePrincipal;
+        background-color: $backgroundPrincipal;
+    color: $color-secundario;}
+    
+    .navbar a { color: $color-terciario;
+             font-family: $fuentePrincipal;
+             background-color: $backgroundPrincipal;
+        color: #0e263f;
+      }
+      

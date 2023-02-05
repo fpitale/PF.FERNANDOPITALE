@@ -1,0 +1,40 @@
+/* paleta de colores */
+$color-primario: #3E6D9C;
+$color-secundario:white;
+$color-terciario:rgb(218, 103, 62);
+$color-cuartenaria:#3d4b57;
+$color-quinariass: #a6bbce;
+$color-footer:black;
+
+
+$backgroundPrincipal:linear-gradient(to left, white, #3E6D9C);
+
+
+/* Pantallas Tamaños */
+
+$tablet:764px;
+$desktop:992px;
+$desktopXG: 1200px;
+
+/* separaciones (margins y padding*/
+$espacioXchico:10px;
+$espacioChico: 20px;
+$espacioMedio:40px;
+$espacioGrande: 60px;
+
+
+/*Fuente*/
+$fuentePrincipal: 'Montserrat', sans-serif;
+
+/*MIXIN*/
+@mixin flex-columna {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@mixin flex-fila {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
