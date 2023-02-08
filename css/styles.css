@@ -8,14 +8,12 @@
 @import url(https://fonts.googleapis.com/css?family=Noto+Sans);
 body {
   font-family: "Montserrat", sans-serif;
-  background-color: linear-gradient(to left, white, #3E6D9C);
-  color: #E6E2C3;
 }
 
 .navbar a {
   color: #F6F6C9;
   font-family: "Montserrat", sans-serif;
-  background-color: linear-gradient(to left, white, #3E6D9C);
+  background-color: linear-gradient(to left, bl, #3E6D9C);
   color: #0e263f;
 }
 
@@ -50,14 +48,12 @@ header {
 
 /* PAGINA INICIO */
 body {
-  background-color: linear-gradient(to left, white, #3E6D9C);
+  background-image: linear-gradient(to left, white, #3E6D9C);
 }
-
-img {
+body img {
   width: 100%;
 }
-
-h1 {
+body h1 {
   text-align: center;
   font-size: 2.5rem;
   text-transform: uppercase;
@@ -66,8 +62,7 @@ h1 {
   animation-name: aparecer;
   animation-iteration-count: infinite;
 }
-
-.p__titulo {
+body .p__titulo {
   text-align: center;
   font-size: 1.5rem;
   text-transform: uppercase;
@@ -77,7 +72,6 @@ h1 {
   animation-name: aparecer;
   animation-iteration-count: infinite;
 }
-
 @keyframes aparecer {
   0% {
     opacity: 0;
@@ -94,7 +88,7 @@ h1 {
     opacity: 1;
   }
 }
-p {
+body p {
   text-align: center;
   font-size: 1.5rem;
   text-transform: uppercase;
@@ -102,51 +96,46 @@ p {
   margin-bottom: 3rem;
   font-family: "Montserrat", sans-serif;
 }
-
-.item__video {
+body .item__video {
   margin-top: 2rem;
   text-align: center;
   font-size: 1.5em;
   margin-bottom: 3rem;
 }
-
-.iframe {
+body .iframe {
   width: 50%;
 }
-
-.h2 {
-  color: #E6E2C3;
+body .h2 {
+  color: #393E46;
   margin-bottom: 2rem;
   font-family: "Montserrat", sans-serif;
 }
-
-.p__video::first-letter {
-  color: #F6F6C9;
+body .p__video, body .texto__bajo__contenedor {
+  color: black;
+}
+body .p__video::first-letter, body .texto__bajo__contenedor::first-letter {
+  color: #153462;
   font-size: 3.5rem;
   margin-bottom: 2rem;
   font-family: "Montserrat", sans-serif;
 }
-
-.texto__bajo__contenedor::first-letter {
-  color: #F6F6C9;
+body .texto__bajo__contenedor::first-letter {
+  color: #153462;
   font-size: 3.5rem;
   margin-bottom: 2rem;
   font-family: "Montserrat", sans-serif;
 }
-
-.img__pag1 img {
+body .img__pag1 img {
   height: 50%;
   width: 50%;
   margin-bottom: 5rem;
   background-image: #153462;
   padding: 30px;
 }
-
-footer {
+body .estilo_footer {
   margin-top: 3rem;
   font-size: 1.6rem;
-  background-color: #E6E2C3;
-  font-size: "Montserrat", sans-serif;
+  color: aqua;
   text-align: center;
 }
 
@@ -154,8 +143,7 @@ footer {
 
 */
 .tipos_de_padres {
-  background-color: linear-gradient(to left, white, #3E6D9C);
-  color: #E6E2C3;
+  background-color: linear-gradient(to left, bl, #3E6D9C);
   font-size: 3rem;
   text-align: center;
 }

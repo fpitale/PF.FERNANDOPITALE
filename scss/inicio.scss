@@ -4,10 +4,9 @@
 
 body {
 
-  background-color: $backgroundPrincipal;
-}
-
-img {
+  background-image: linear-gradient(to left, white, #3E6D9C);
+  
+  img {
   width: 100%;
 }
 
@@ -65,26 +64,31 @@ p {
 
 
 .h2 {
-  color:$color-secundario;
+  color:$color-footer;
     margin-bottom: 2rem;
   font-family:$fuentePrincipal;
 }
 
+.p__video{ color:black;}
+
+
 .p__video::first-letter {
-  color:$color-terciario;
+  color:$color-quinariass;
   font-size: 3.5rem;
   margin-bottom: 2rem;
   font-family:$fuentePrincipal;
 }
 
 .texto__bajo__contenedor::first-letter {
-  color:$color-terciario;
+  color:$color-quinariass;
   font-size: 3.5rem;
   margin-bottom: 2rem;
   font-family:$fuentePrincipal;
 }
 
-
+.texto__bajo__contenedor{
+  @extend .p__video;
+}
 .img__pag1 img {
   height: 50%;
   width: 50%;
@@ -94,10 +98,12 @@ padding: 30px;
 }
 
 
-footer {
+.estilo_footer {
   margin-top: 3rem;
   font-size: 1.6rem;
-  background-color: $color-secundario;
-font-size: $fuentePrincipal;
+  color: aqua;
   text-align: center;}
 
+  
+  
+}

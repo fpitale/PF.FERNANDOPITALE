@@ -1,9 +1,9 @@
-/* Error: Undefined variable.
- *   ,
- * 7 |   background-color: $backgroundPrincipal;
- *   |                     ^^^^^^^^^^^^^^^^^^^^
- *   '
- *   scss\inicio.scss 7:21  root stylesheet */
+/* Error: Undefined mixin.
+ *    ,
+ * 14 |   @include h1
+ *    |   ^^^^^^^^^^^
+ *    '
+ *   scss\inicio.scss 14:3  root stylesheet */
 
 body::before {
   font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
@@ -13,5 +13,5 @@ body::before {
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
-  content: "Error: Undefined variable.\a   \2577 \a 7 \2502    background-color: $backgroundPrincipal;\d\a   \2502                      ^^^^^^^^^^^^^^^^^^^^\a   \2575 \a   scss\\inicio.scss 7:21  root stylesheet";
+  content: "Error: Undefined mixin.\a    \2577 \a 14 \2502    @include h1\a    \2502    ^^^^^^^^^^^\a    \2575 \a   scss\\inicio.scss 14:3  root stylesheet";
 }
