@@ -154,20 +154,20 @@ footer {
 
 */
 .tipos_de_padres {
-  background-color: #e99f2f;
-  color: #10528b;
+  background-color: linear-gradient(to left, white, #3E6D9C);
+  color: #E6E2C3;
   font-size: 3rem;
   text-align: center;
 }
 
 .lista__paternidad li:nth-child(even) {
   font-size: 1.5rem;
-  color: white;
+  color: #E6E2C3;
 }
 
 .lista__paternidad li:nth-child(odd) {
   font-size: 1.5rem;
-  color: #e99f2f;
+  color: #1C315E;
 }
 
 .paternidad_h3 {
@@ -175,11 +175,13 @@ footer {
   font-size: 3rem;
   margin-top: 3rem;
   margin-bottom: 3rem;
+  color: #E6E2C3;
 }
 
 .accordion-button {
-  background-color: #44a1f3;
-  color: black;
+  background-color: #1C315E;
+  color: #E6E2C3;
+  font-family: "Montserrat", sans-serif;
   font-size: 1.5rem;
 }
 
@@ -187,14 +189,15 @@ footer {
 .h2_act {
   margin-bottom: 2rem;
   text-align: center;
-  color: #e99f2f;
+  color: #1C315E;
+  font-family: "Montserrat", sans-serif;
 }
 
 .texto_explicativo {
   font-size: 1.5rem;
   align-items: center;
-  color: rgb(66, 32, 7);
-  font-family: "Times New Roman", Times, serif;
+  color: #F6F6C9;
+  font-family: "Montserrat", sans-serif;
 }
 
 #carouselExampleFade {
@@ -263,12 +266,6 @@ footer {
 
 /* pagina contactos */
 /* Importación de fuentes de google fonts */
-body {
-  height: 100%;
-  font-family: "Noto Sans", sans-serif;
-  background-color: #2C74B3;
-}
-
 .contact_form {
   width: 460px;
   height: auto;
