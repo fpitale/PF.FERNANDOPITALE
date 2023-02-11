@@ -33,7 +33,8 @@ h1 {
   color: #3E6D9C;
   background-image: linear-gradient(to left, white, #3E6D9C);
 }
-.navbar a {
+.navbar .nav-link {
+  text-align: center;
   color: #3E6D9C;
 }
 
@@ -229,7 +230,7 @@ body .estilo_footer {
 }
 
 .box:hover {
-  transform: scale(1.5);
+  transform: scale(1.1);
 }
 
 .grid2x2 {
