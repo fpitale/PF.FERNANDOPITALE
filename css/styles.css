@@ -50,18 +50,17 @@ header {
 /* PAGINA INICIO */
 body {
   background-image: linear-gradient(to left, white, #3E6D9C);
+  /* h1 {
+    @include h1
+  }
+   */
+  /* .iframe {
+    width: 50%;
+  }
+   */
 }
 body img {
   width: 100%;
-}
-body h1 {
-  text-align: center;
-  font-size: 2.5rem;
-  text-transform: uppercase;
-  color: rgb(218, 103, 62);
-  animation-duration: 3s;
-  animation-name: aparecer;
-  animation-iteration-count: infinite;
 }
 body .p__titulo {
   text-align: center;
@@ -103,8 +102,8 @@ body .item__video {
   font-size: 1.5em;
   margin-bottom: 3rem;
 }
-body .iframe {
-  width: 50%;
+body .video__contenedor {
+  height: 100%;
 }
 body .h2 {
   color: #393E46;
@@ -140,26 +139,51 @@ body .estilo_footer {
   text-align: center;
 }
 
+@media (min-width: 768px) {
+  .img__pag1 {
+    width: 100%;
+    height: 100%;
+    justify-items: center;
+  }
+}
+@media (min-width: 992px) {
+  .img__pag1 {
+    width: 100%;
+    height: 100%;
+    justify-items: center;
+  }
+}
+@media (min-width: 1200px) {
+  .img__pag1 {
+    width: 100%;
+    height: 100%;
+    justify-items: center;
+  }
+}
 /* paternidad
 
 */
 .tipos_de_padres {
   background-color: linear-gradient(to left, bl, #3E6D9C);
+  font-family: "Montserrat", sans-serif;
   font-size: 3rem;
   text-align: center;
 }
 
 .lista__paternidad li:nth-child(even) {
+  font-family: "Montserrat", sans-serif;
   font-size: 1.5rem;
   color: #E6E2C3;
 }
 
 .lista__paternidad li:nth-child(odd) {
+  font-family: "Montserrat", sans-serif;
   font-size: 1.5rem;
   color: #1C315E;
 }
 
 .paternidad_h3 {
+  font-family: "Montserrat", sans-serif;
   text-align: center;
   font-size: 3rem;
   margin-top: 3rem;
@@ -185,7 +209,7 @@ body .estilo_footer {
 .texto_explicativo {
   font-size: 1.5rem;
   align-items: center;
-  color: #F6F6C9;
+  color: black;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -267,12 +291,12 @@ body .estilo_footer {
   border-radius: 10px;
   padding-top: 30px;
   padding-bottom: 20px;
-  background-color: #368ff5;
+  background-color: #153462;
   padding-left: 30px;
 }
 
 input {
-  background-color: #44a1f3;
+  background-color: black;
   width: 408px;
   height: 40px;
   border-radius: 5px;
@@ -285,7 +309,7 @@ input {
 }
 
 textarea {
-  background-color: #368ff5;
+  background-color: #153462;
   width: 405px;
   height: 150px;
   border-radius: 5px;
@@ -370,7 +394,7 @@ p {
 .texto__ubicacion {
   display: flex;
   font-size: 3rem;
-  color: #001253;
+  color: #1C315E;
   justify-content: center;
 }
 

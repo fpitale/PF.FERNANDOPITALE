@@ -13,13 +13,13 @@
    border-radius: 10px;  
    padding-top: 30px;
    padding-bottom: 20px;  
-   background-color:#368ff5; 
+   background-color:$color-quinariass; 
    padding-left: 30px; 
  }
  
  
  input{
-   background-color:#44a1f3; 
+   background-color:black; 
    width: 408px; 
    height: 40px; 
    border-radius: 5px;  
@@ -33,7 +33,7 @@
  
  
  textarea{
-   background-color:#368ff5; 
+   background-color:$color-quinariass; 
    width: 405px; 
    height: 150px; 
    border-radius: 5px;  
@@ -132,7 +132,7 @@
  .texto__ubicacion{ display:flex;
   
    font-size: 3rem;
- color:#001253;
+ color: $color-primario;
  justify-content: center;}
  
  .mapa{ 

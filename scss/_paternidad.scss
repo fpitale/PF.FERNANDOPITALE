@@ -2,18 +2,22 @@
 
 */.tipos_de_padres{ 
     background-color:$backgroundPrincipal;
+    font-family:$fuentePrincipal;
     
   font-size: 3rem;
   text-align: center;}
   .lista__paternidad li:nth-child(even){ 
+    font-family:$fuentePrincipal;
     font-size: 1.5rem;
     color:$color-secundario}
   .lista__paternidad li:nth-child(odd){ 
+    font-family:$fuentePrincipal;
     
     font-size: 1.5rem;
     color:$color-primario; }
 
     .paternidad_h3{ 
+      font-family:$fuentePrincipal;
         text-align: center;
         font-size: 3rem;
         margin-top: 3rem;

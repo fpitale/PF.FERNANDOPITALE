@@ -10,10 +10,10 @@ body {
   width: 100%;
 }
 
-h1 {
+/* h1 {
   @include h1
 }
-
+ */
 
 .p__titulo {
   @include p_titulo
@@ -58,10 +58,14 @@ p {
   margin-bottom: 3rem;
 }
 
-.iframe {
+/* .iframe {
   width: 50%;
 }
-
+ */
+.video__contenedor{
+  
+height: 100%;
+}
 
 .h2 {
   color:$color-footer;
@@ -104,6 +108,32 @@ padding: 30px;
   color: aqua;
   text-align: center;}
 
+}
+
+@media (min-width: 768px) {
   
+
+      .img__pag1 {
+        width:100%;
+        height: 100%;
+        justify-items: center;
+      }
+  }
+
+@media (min-width: 992px) {
+  .img__pag1 {
+    width:100%;
+    height: 100%;
+    justify-items: center;
+  }
+}
+
+
+@media (min-width: 1200px) {
+  .img__pag1 {
+    width:100%;
+    height: 100%;
+    justify-items: center;
   
 }
+  }
