@@ -9,7 +9,7 @@
   .lista__paternidad li:nth-child(even){ 
     font-family:$fuentePrincipal;
     font-size: 1.5rem;
-    color:$color-secundario}
+    color:black}
   .lista__paternidad li:nth-child(odd){ 
     font-family:$fuentePrincipal;
     
@@ -22,7 +22,7 @@
         font-size: 3rem;
         margin-top: 3rem;
         margin-bottom: 3rem;
-      color: $color-secundario;}
+      color: chocolate;}
 
         .accordion-button {
             background-color:$color-primario;
