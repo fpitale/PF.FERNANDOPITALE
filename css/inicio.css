@@ -1,17 +1,118 @@
-/* Error: Undefined variable.
- *    ,
- * 78 |   color:$color-footer;
- *    |         ^^^^^^^^^^^^^
- *    '
- *   scss\inicio.scss 78:9  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Undefined variable.\a    \2577 \a 78 \2502    color:$color-footer;\d\a    \2502          ^^^^^^^^^^^^^\a    \2575 \a   scss\\inicio.scss 78:9  root stylesheet";
+/* PAGINA INICIO */
+body {
+  background-image: linear-gradient(to left, white, #3E6D9C);
+  /* p {
+    text-align: center;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    color:$color-terciario;
+    margin-bottom: 3rem;
+    font-family: $fuentePrincipal;
+  }
+   */
 }
+body img {
+  width: 80%;
+}
+body h1 {
+  font-weight: bold;
+}
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+body .p__titulo {
+  text-align: center;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  color: rgb(218, 103, 62);
+  margin-bottom: 3rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body .item__video {
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 1.5em;
+  margin-bottom: 3rem;
+}
+body .iframe {
+  width: 50%;
+}
+body .video__contenedor {
+  height: 100%;
+}
+body .h2 {
+  color: chocolate;
+  margin-bottom: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body .p__video, body .texto__bajo__contenedor {
+  color: black;
+  font-size: 1.5rem;
+}
+body .p__video::first-letter, body .texto__bajo__contenedor::first-letter {
+  color: rgb(36, 36, 168);
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body .texto__bajo__contenedor::first-letter {
+  color: rgb(36, 36, 168);
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body .img__pag1 img {
+  height: 50%;
+  width: 50%;
+  margin-bottom: 5rem;
+  background-image: rgb(36, 36, 168);
+  padding: 30px;
+}
+body .estilo_footer {
+  margin-top: 3rem;
+  font-size: 1.6rem;
+  color: aqua;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .img__pag1 {
+    width: 90%;
+    height: 90%;
+    justify-items: center;
+  }
+}
+@media (min-width: 992px) {
+  .img__pag1 {
+    width: 90%;
+    height: 90%;
+    justify-items: center;
+  }
+}
+@media (min-width: 1200px) {
+  .img__pag1 {
+    width: 90%;
+    height: 90%;
+    justify-items: center;
+  }
+}
+.footer {
+  text-align: center;
+  color: black;
+  font-size: 0.8rem;
+}
+
+/*# sourceMappingURL=inicio.css.map */
