@@ -4,12 +4,12 @@
     background-color:$backgroundPrincipal;
     font-family:$fuentePrincipal;
     
-  font-size: 2.5rem;
+  font-size: 2.4rem;
   text-align: center;}
   .lista__paternidad li:nth-child(even){ 
     font-family:$fuentePrincipal;
     font-size: 1.5rem;
-    color: rgb(61, 42, 146)}
+    color: $color-primario;}
     
   .lista__paternidad li:nth-child(odd){ 
     font-family:$fuentePrincipal;
@@ -23,7 +23,7 @@
         font-size: 3rem;
         margin-top: 3rem;
         margin-bottom: 3rem;
-      color: chocolate;}
+      color: chocolate}
 
         .accordion-button {
             background-color:$color-primario;

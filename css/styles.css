@@ -170,14 +170,14 @@ body .estilo_footer {
 .tipos_de_padres {
   background-color: linear-gradient(to left, bl, #3E6D9C);
   font-family: "Montserrat", sans-serif;
-  font-size: 2.5rem;
+  font-size: 2.4rem;
   text-align: center;
 }
 
 .lista__paternidad li:nth-child(even) {
   font-family: "Montserrat", sans-serif;
   font-size: 1.5rem;
-  color: rgb(61, 42, 146);
+  color: #1C315E;
 }
 
 .lista__paternidad li:nth-child(odd) {
