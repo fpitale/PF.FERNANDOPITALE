@@ -45,10 +45,10 @@ $fuentePrincipal: 'Montserrat', sans-serif;
 @mixin h1 {
     
         text-align: center;
-        font-size: 2.5rem;
+        font-size: 2.0rem;
         text-transform: uppercase;
-        color: rgb(218, 103, 62);
-        animation-duration: 3s;
+        color:rgb(218, 103, 62);
+        animation-duration: 2s;
         animation-name: aparecer;
         animation-iteration-count: infinite;
       

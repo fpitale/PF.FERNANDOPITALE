@@ -10,10 +10,9 @@ body {
   width: 80%;
 }
 
- h1 {
-  font-weight: bold;
+.h1__titulo{ 
+  @include h1;
 }
- 
 
 
 @keyframes aparecer {
@@ -47,6 +46,12 @@ body {
   font-family: $fuentePrincipal;
 }
  */
+
+ 
+
+ 
+ 
+ 
 
  .p__titulo{
   text-align: center;
@@ -121,7 +126,7 @@ padding: 30px;
 
 @media (min-width: 768px) {
   
-
+ 
       .img__pag1 {
         width:90%;
         height: 90%;

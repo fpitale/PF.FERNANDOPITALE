@@ -25,28 +25,6 @@ header {
   background-color: #3E6D9C;
 }
 
-/*  estilos globales */
-body {
-  font-family: "Montserrat", sans-serif;
-}
-
-.navbar a {
-  color: #F6F6C9;
-  font-family: "Montserrat", sans-serif;
-  background-color: linear-gradient(to left, bl, #3E6D9C);
-  color: #0e263f;
-}
-
-h1 {
-  text-align: center;
-  font-size: 2.5rem;
-  text-transform: uppercase;
-  color: rgb(218, 103, 62);
-  animation-duration: 3s;
-  animation-name: aparecer;
-  animation-iteration-count: infinite;
-}
-
 /* PAGINA INICIO */
 body {
   background-image: linear-gradient(to left, white, #3E6D9C);
@@ -63,8 +41,14 @@ body {
 body img {
   width: 80%;
 }
-body h1 {
-  font-weight: bold;
+body .h1__titulo {
+  text-align: center;
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: rgb(218, 103, 62);
+  animation-duration: 2s;
+  animation-name: aparecer;
+  animation-iteration-count: infinite;
 }
 @keyframes aparecer {
   0% {
