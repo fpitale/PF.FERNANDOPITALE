@@ -4,14 +4,8 @@
 /* separaciones (margins y padding*/
 /*Fuente*/
 /*MIXIN*/
-@import url(https://fonts.googleapis.com/css?family=Noto+Sans);
-.footer {
-  text-align: center;
-  color: black;
-  font-size: 0.8rem;
-}
-
 /*  estilos globales */
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans);
 body {
   font-family: "Montserrat", sans-serif;
 }
